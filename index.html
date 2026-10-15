@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+
+    <title>Cadastro de Usuário</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="boxMenor">
+          <div class="userPrincipal">
+            <i class="fa-solid fa-user-plus"></i>
+            <h2>Criar Conta</h2>
+            <p>Preencha seus dados para começar</p>
+          </div>
+          <form class="formPrincipal">
+            <div class="campo">
+              <label for="nomeCompleto">Nome Completo</label>
+              <input
+                id="nomeCompleto"
+                class="nomeCompleto"
+                type="text"
+                name="nome"
+                required
+                placeholder="Digite seu nome"
+              />
+            </div>
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                class="email"
+                type="email"
+                name="email"
+                required
+                placeholder="seuemail@exemplo.com"
+              />
+            </div>
+            <div class="campo">
+              <label for="password">Digite sua senha</label>
+              <input
+                id="password"
+                class="password"
+                type="password"
+                name="password"
+                required
+                placeholder="Digite sua senha"
+              />
+            </div>
+            <div class="campo">
+              <label for="confirmPassword">Confirmar senha</label>
+              <input
+                id="confirmPassword"
+                class="confirmPassword"
+                type="password"
+                name="confirmPassword"
+                required
+                placeholder="Repita sua senha"
+              />
+            </div>
+            <div class="btnCriar">
+              <button type="submit">Enviar cadastro</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

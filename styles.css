@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.wrapper{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    
+}
+
+.boxMenor{
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width:90%;
+    max-width:400px;
+    height: auto;
+    padding: 24px;
+    gap:5px;
+}
+.userPrincipal h2{
+    font-size: 24px;
+    font-weight: 600;
+    color:#241631;
+}
+.userPrincipal p{
+    font-size: 14px;
+    text-align: center;
+    color: #766b81;
+}
+
+.userPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;    
+   
+}
+.userPrincipal i{
+    border: 1px solid #e9d5ff;
+    background-color: #f3e8ff;
+    color:#7c3aed;
+    border-radius: 8px;
+    gap:5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.formPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px;
+    gap:8px;
+
+}
+.formPrincipal input:focus {
+    border-color: #7c3aed;
+   
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    
+}
+.formPrincipal input{
+    border: 1px solid rgb(148, 146, 146);
+    border-radius: 10px;
+    padding: 5px;
+    width: 90%;
+    outline: none;
+    transition: border-color 0.3s ease;
+    
+
+}
+
+.btnCriar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.btnCriar button{
+    width: 100%;
+    padding: 12px;
+    background-color: #7c3aed;
+    color: #fdfdfd;
+    border: none;
+    border-radius: 8px;
+
+}
