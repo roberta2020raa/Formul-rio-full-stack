@@ -4,7 +4,8 @@
   "description": "Este projeto tem como objetivo compreender, na prática, o caminho percorrido pelos dados de um formulário, desde a entrada das informações pelo usuário no Front-End até seu processamento no Back-End e armazenamento em um banco de dados.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -13,12 +14,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/roberta2020raa/formulario-fullStack/issues"
   },
   "homepage": "https://github.com/roberta2020raa/formulario-fullStack#readme",
   "dependencies": {
     "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
